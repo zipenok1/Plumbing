@@ -1,0 +1,155 @@
+.order-admin__table-container {
+  overflow-x: auto;
+  margin-top: 145px;
+}
+
+.order-admin__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.order-admin__table th,
+.order-admin__table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.status-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.order-admin__table th {
+  background-color: rgba(43, 123, 198, 1);
+  color: white;
+  font-weight: bold;
+}
+
+.order-admin__delete-btn {
+  width: 120px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.order-admin__edit-btn{
+  background-color: rgba(59, 185, 184, 1);
+  color: #fff;
+  width: 120px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 5px;
+}
+.order-admin__edit-textarea{
+  outline: none;
+  resize: none;
+  border: none;
+  background: none;
+  width: 550px;
+  padding: 5px;
+  height: 100px;
+  font-size: 16px;
+}
+.order-admin__edit-input{
+  outline: none;
+  border: none;
+  width: 80px;
+  padding: 5px;
+  background: none;
+  text-align: center;
+  font-size: 16px;
+}
+.approve {
+  width: 120px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pending {
+  width: 120px;
+  background-color: rgb(64, 138, 207);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.order-admin__empty-message {
+  text-align: center;
+  color: #7f8c8d;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.status-cell {
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.status-pending {
+  background-color: #ffcccc;
+  color: #cc0000;
+  width: 123px;
+}
+
+.status-approved {
+  background-color: #ccffcc; 
+  color: #006600;
+  width: 123px;
+}
+
+.status-canceled {
+  background-color: #ffebee;
+  color: #f44336;
+  width: 123px;
+}
+
+.order-admin__cancel-btn {
+  width: 120px;
+  background-color: #c9c9c9;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.order-admin__actions {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+@media(max-width:1450px){
+  .order-admin__table th{
+    font-size: 14px;
+  }
+  .order-admin__table th, .order-admin__table td{
+    padding: 8px 6px;
+  }
+  .order-admin__cancel-btn, .approve, .pending, .order-admin__delete-btn, .order-admin__edit-btn {
+    width: 100px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .order-admin__edit-textarea{
+    width: 200px;
+  }
+}

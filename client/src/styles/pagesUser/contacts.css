@@ -1,0 +1,159 @@
+.Contacts__content{
+    padding: 50px 0;
+}
+.Contacts__content-map{
+    padding: 50px 0;
+    height: 640px;
+}
+.Contacts__content-map iframe{
+    border: none;
+}
+
+.Contacts__content-connection {
+    display: flex;
+    gap: 20px;
+}
+
+.connection__info {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.connection__info h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #2b7bc6;
+}
+
+.connection__items {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.connection__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.connection__icon {
+    width: 40px;
+    height: 40px;
+    background-color: #2b7bc6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+.connection__icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.connection__text h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.connection__text a, 
+.connection__text p {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.connection__text a:hover {
+    color: #2b7bc6;
+}
+
+.direction-link {
+    color: #2b7bc6 !important;
+    font-weight: 500;
+    margin-top: 10px !important;
+}
+
+
+.connection__additional {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.connection__additional h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #2b7bc6;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+.faq-section h4{
+    margin-bottom: 20px;
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item details {
+    cursor: pointer;
+}
+
+.faq-item summary {
+    font-weight: 500;
+    color: #444;
+    padding: 5px 0;
+    outline: none;
+}
+
+.faq-item summary:hover {
+    color: #2b7bc6;
+}
+
+.faq-item p {
+    color: #666;
+    padding: 10px 0 0 15px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .Contacts__content-connection {
+        flex-direction: column;
+    }
+    
+    .connection__info,
+    .connection__additional {
+        width: 100%;
+    }
+    .Contacts__content-map{
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .connection__item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .connection__additional h3, .connection__info h3{
+        font-size: 20px;
+    }
+    .connection__text h4 {
+        font-size: 16px;
+    }
+    .connection__icon {
+        margin-bottom: 10px;
+    }
+}

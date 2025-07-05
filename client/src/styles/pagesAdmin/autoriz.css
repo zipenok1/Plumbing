@@ -1,0 +1,66 @@
+.Authorization{
+    margin-top: 230px;
+    display: flex;
+    justify-content: center;
+}
+.Authorization__box{
+    border-radius: 10px;
+    background-color: rgba(225, 238, 251, 1);
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea, select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px rgba(43, 123, 198, 0.63) inset; 
+    -webkit-text-fill-color: #fff;
+}
+.text{
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    width: 400px;
+    background-color: rgba(43, 123, 198, 0.63);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+.btm{
+    margin-top: 20px;
+    padding:10px;
+    text-align: center;
+    background-color: rgba(43, 123, 198, 1);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+.text::placeholder {
+    color: white;
+}
+
+.text::-webkit-input-placeholder, .text:-moz-placeholder, .text:-ms-input-placeholder, .text::-moz-placeholder {
+    color: white;
+    opacity: 1; 
+}
+
+.error-message {
+    color: #ff3333;
+    margin: -10px 0 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.input-error {
+    border: 1px solid #ff3333 !important;
+}
+.text:focus {
+    outline: none;
+    border-color: #4a90e2;
+}

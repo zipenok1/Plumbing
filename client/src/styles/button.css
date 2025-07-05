@@ -1,0 +1,16 @@
+.Button__content button{
+    background-color: rgba(43, 123, 198, 1);
+    border: none;
+    width: 100%;
+    height: 120px;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+@media(max-width:900px){
+    .Button__content button{
+        height: 80px ;
+    }
+}

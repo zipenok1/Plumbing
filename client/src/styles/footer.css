@@ -1,0 +1,36 @@
+.Footer{
+    padding: 50px 0;
+    background-color: rgba(225, 238, 251, 1);
+    color: #000;
+}
+.Footer__content-nav{
+    margin-top: 20px;
+}
+.Footer__nav{
+    display: flex;
+    gap: 35px;
+}
+.Footer__nav button{
+    color: #000;
+    border: none;
+    background: none;
+}
+.politic__content{
+    padding-top: 50px;
+}
+.politic__content-butt{
+    text-decoration: none;
+}
+.politic__content p{
+    font-size: 14px;
+    color: #000;
+}
+.politic__content p:hover{
+    color: rgba(43, 123, 198, 1);
+}
+@media(max-width:666px){
+    .Footer__nav{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,75 @@
+.Character{
+    margin-top: 50px;
+}
+.Catalog__form{
+    margin-top: 50px;
+}
+.Catalog__form-box{
+    display: flex;
+    flex-direction: column;
+}
+.Catalog__form input{
+    width: 500px;
+}
+.Character__button{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.Character__button button{
+    padding: 20px;
+    border: none;
+    background-color: rgba(43, 123, 198, 1);
+    color: #Fff;
+    font-size: 18px;
+}
+.Character-flex{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 2px;
+}
+.Character__content{
+    background-color: #Fff;
+    width: 308px;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+}
+.Order__content{
+    background-color: #Fff;
+    width: 308px;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+}
+.Character__content-title img{
+    width: 288px;
+    height: 322px;
+}
+.Character__content-title p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.Character__content-desc p{
+    font-size: 24px;
+    font-weight: 800;
+}
+.Character__content-desc{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+.Character__box-img{
+    width: 30px;
+}
+.Character__box-editing{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.TilesBanner{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+.Tiles__box-content{
+    background-color: rgba(59, 185, 184, 0.8);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 12px 20px;
+}
+.Tiles__box-text{
+    color: #fff;
+    padding: 6px 20px;
+}
+@media(max-width:1636px){
+    .Tiles__box-content {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .Tiles__box-text{
+        padding: 0;
+    }
+}
+@media(max-width:1100px){
+  
+}
+@media(max-width:970px){
+    
+}
+@media(max-width:782px){
+    
+}

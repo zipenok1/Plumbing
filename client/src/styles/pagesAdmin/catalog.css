@@ -1,0 +1,35 @@
+.Catalog h2{
+    margin-bottom: 50px;
+}
+.catalog__butt {
+    display: flex;
+    gap: 20px;
+}
+.catalog__butt button{
+    padding: 20px;
+    border: none;
+    background-color: rgba(43, 123, 198, 1);
+    color: #Fff;
+    font-size: 18px;
+}
+.catalog__contnet{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.catalog__box{
+    text-align: center;
+    width: 230px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.catalog__box p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.catalog__box p span{
+    font-size: 18px;
+    font-weight: 400;
+}
